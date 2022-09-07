@@ -1,0 +1,9 @@
+{
+  "cache": "1MB",
+  "locale": "en_CA.UTF-8",
+  "logSize": "1024",
+  "mode": "text",
+  "relax": "1MB",
+  "storage": "/tmp",
+  "tabWidth": 4
+}

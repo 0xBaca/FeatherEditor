@@ -1,0 +1,13 @@
+Package: feather-dbgsym
+Package-Type: ddeb
+Source: feather-1.0
+Version: 1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: MateuszWojtczak <0xbaca@gmail.com>
+Installed-Size: 775
+Depends: feather (= 1-1)
+Section: free/debug
+Priority: optional
+Description: debug symbols for feather
+Build-Ids: 504a193bd491121ec1e0275b886d7ed6af8160d0

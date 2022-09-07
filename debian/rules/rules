@@ -1,0 +1,45 @@
+#!/usr/bin/make -f
+# See debhelper(7) (uncomment to enable)
+# output every command that modifies files on the build system.
+#export DH_VERBOSE = 1
+
+
+# see FEATURE AREAS in dpkg-buildflags(1)
+#export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+# see ENVIRONMENT in dpkg-buildflags(1)
+# package maintainers to append CFLAGS
+#export DEB_CFLAGS_MAINT_APPEND  = -Wall -pedantic
+# package maintainers to append LDFLAGS
+#export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
+
+%:
+	dh $@
+
+
+# dh_make generated override targets
+# This is example for Cmake (See https://bugs.debian.org/641051 )
+#override_dh_auto_configure:
+	dh_auto_configure --
+
+override_dh_auto_build:
+	dh_auto_build --
+override_dh_install:
+	dh_install feather usr/bin
+	dh_install feather.1 usr/share/man/man1
+	dh_install debian/feather.desktop usr/share/applications
+	dh_install logo/48x48/apps/feather.png usr/share/pixmaps
+	dh_install logo/48x48/apps/feather.png usr/share/icons/hicolor/scalable/apps/feather.svg
+	dh_install logo/16x16/apps/feather.png usr/share/icons/hicolor/16x16/apps
+	dh_install logo/22x22/apps/feather.png usr/share/icons/hicolor/22x22/apps
+	dh_install logo/24x24/apps/feather.png usr/share/icons/hicolor/24x24/apps
+	dh_install logo/32x32/apps/feather.png usr/share/icons/hicolor/32x32/apps
+	dh_install logo/36x36/apps/feather.png usr/share/icons/hicolor/36x36/apps
+	dh_install logo/48x48/apps/feather.png usr/share/icons/hicolor/48x48/apps
+	dh_install logo/64x64/apps/feather.png usr/share/icons/hicolor/64x64/apps
+	dh_install logo/72x72/apps/feather.png usr/share/icons/hicolor/72x72/apps
+	dh_install logo/96x96/apps/feather.png usr/share/icons/hicolor/96x96/apps
+	dh_install logo/128x128/apps/feather.png usr/share/icons/hicolor/128x128/apps
+	dh_install logo/256x256/apps/feather.png usr/share/icons/hicolor/256x256/apps
+	dh_install logo/512x512/apps/feather.png usr/share/icons/hicolor/512x512/apps
+	

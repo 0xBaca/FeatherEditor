@@ -1,0 +1,11 @@
+{
+  "cacheOnOff" : 1024,
+  "cacheNoPages" : 1024,
+  "cachePageSize" : 1024,
+  "maxLogMbFileSize" : 1024,
+  "memoryMbRelaxed" : 1,
+  "dataPath" : 1,
+  "locale" : "",
+  "readMode" : "text",
+  "tabWidth" : 4
+}

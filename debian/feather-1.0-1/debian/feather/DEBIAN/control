@@ -1,0 +1,13 @@
+Package: feather
+Source: feather-1.0
+Version: 1-1
+Architecture: arm64
+Maintainer: MateuszWojtczak <0xbaca@gmail.com>
+Installed-Size: 2908
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 4.2), libncurses6 (>= 6), libncursesw6 (>= 6), libstdc++6 (>= 9), libtinfo6 (>= 6)
+Section: free/editors
+Priority: optional
+Homepage: https://www.feathereditor.com
+Description: The only low memory text editor.
+ The only terminal based text editor designed to work with BIG files.
+ It doesn't matter if you will edit a 100MB or 100GB file. Feather will do.

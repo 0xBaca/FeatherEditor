@@ -1,0 +1,51 @@
+.TH "FEATHER" "1" "May 2022" "Feather" "feather"
+.
+.SH "NAME"
+\f feather\fR \- memory efficient text editor for any size files.
+.
+.SH "SYNOPSIS"
+\fBfeather\fR \fB\-\-version\fR
+.
+.br
+\fBfeather\fR [file] [\fIoptions\fR]\.\.\.
+.
+.SH "DESCRIPTION"
+The only terminal based text editor designed to work with BIG files. It doesn't matter if you will edit a 100MB or 100GB file. Feather will do.
+.
+.SH "OPTIONS"
+.
+.TP
+\fB\-\-mode\fR
+.br
+Defines if the file will be interpreted as UTF-8 text or hex bytes. Hex mode comes with HEX search. Available options: text/hex
+.
+.TP
+\fB\-\-force\fR
+.br
+Sometimes when using the --sessionId option it can turn out that file content has changed over the time and displayed file can have different content than expected, this gauge is used to force stashed changes injection. If the file was modified it is not guaranteed that changes will display properly
+.
+.TP
+\fB\-\-relax\fR
+.br
+Internal feather buffers size. By default this value is 1M and cannot be less than 1Kb
+.
+.TP
+\fB\-\-storage\fR
+.br
+Folder where the user would like to keep stashed changes. By default: /tmp
+.
+.TP
+\fB\-\-tab\fR
+.br
+How many spaces represent tabulator
+.
+.TP
+\fB\-\-sessionId\fR
+.br
+Id of stashed session
+.
+.SH "SEE ALSO"
+Homepage: feathereditor.com
+.br
+
+Contact: 0xbaca@gmail.com

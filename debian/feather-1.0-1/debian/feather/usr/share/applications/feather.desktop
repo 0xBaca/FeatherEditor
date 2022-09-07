@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=feather
+Version=1.0
+Comment=The only constant memory usage text editor.
+GenericName=feather
+Terminal=true
+Icon=/usr/share/pixmaps/feather.png
+Type=Application
+Exec=feather
+Category=Utility;TextEditors;

@@ -1,0 +1,11 @@
+{
+  "cache" : true,
+  "cacheNoPages" : 1,
+  "cachePageSize" : 6,
+  "maxLogMbFileSize" : 1024,
+  "memoryMbRelaxed" : 1,
+  "storagePath" : "/test",
+  "locale" : "en_CA.UTF-8",
+  "readMode" : "binary",
+  "tabWidth" : 8
+}

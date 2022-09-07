@@ -1,0 +1,16 @@
+Feather LICENSE
+
+Author: Mateusz Wojtczak
+email:  0xbaca@gmail.com
+
+I)   There are no restrictions on distributing unmodified copies of Feather except
+     that they must include this license text.
+
+II)  It is not allowed to distribute a modified version of Feather, or its part in any way.
+
+III) It is not allowed to remove this license from the distribution of the Feather
+     sources.
+
+IV)  Any Feather repository file that has author comment:
+     "This file has to be distributed as it is. It cannot be modified as per license"
+     can be modified only by the author and by no one else.
