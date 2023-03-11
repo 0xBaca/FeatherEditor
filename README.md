@@ -49,10 +49,6 @@ Official webpage [feathereditor.com](https://feathereditor.com) is the best sour
 
 Feather is free but any copied versions must include the [License](https://github.com/0xBaca/FeatherEditor/blob/master/LICENSE) with the author name and its email address.
 
-Summary of the [License](https://github.com/0xBaca/FeatherEditor/blob/master/LICENSE): There are no restrictions on using or distributing an
-unmodified copy of Feather but it must include the [License](https://github.com/0xBaca/FeatherEditor/blob/master/LICENSE) text with author name and email.
-
-
 ## Showing your appreciation ##
 
 I will be working on improving Feather. If you find it useful or you just would like to help any contribution will be appreciated.<br />
