@@ -84,7 +84,6 @@ namespace feather::action
             .WillRepeatedly(::testing::Return(0));
         EXPECT_CALL(*dynamic_cast<testing::mocks::WindowsManagerMock *>(windowsManagerMock.get()), getMainWindow(TEST_UUID))
             .WillRepeatedly(::testing::Return(nCursesMainWindowDecoratorMock));
-        EXPECT_CALL(*dynamic_cast<testing::mocks::WindowsManagerMock *>(windowsManagerMock.get()), refreshAllWindows(::testing::_, ::testing::_));
         EXPECT_CALL(*dynamic_cast<NCursesMainWindowDecoratorMock *>(nCursesMainWindowDecoratorMock.get()), getLibraryWindowHandler())
             .WillRepeatedly(::testing::Return(nCursesWindowMock.get()));
         EXPECT_CALL(*dynamic_cast<NCursesWindowMock *>(nCursesWindowMock.get()), getCharacter())
